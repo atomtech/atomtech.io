@@ -1,0 +1,24 @@
+{
+  "name": "webapp",
+  "private": true,
+  "version": "0.0.0",
+  "description": "The main webapp for AtomTech.",
+  "scripts": {
+    "dist": "grunt dist",
+    "start": "grunt server",
+    "deploy": "gh-pages -d public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gh-pages": "~1.1.0",
+    "grunt": "~1.0.1",
+    "grunt-browser-sync": "~2.2.0",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-sass": "~1.2.0",
+    "load-grunt-config": "~0.19.2",
+    "ress": "~1.1.1",
+    "time-grunt": "~1.4.0"
+  }
+}
